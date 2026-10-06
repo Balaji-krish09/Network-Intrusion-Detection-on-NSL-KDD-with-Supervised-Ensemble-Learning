@@ -1,0 +1,14 @@
+# Large or regenerable files
+models/
+archive (2).zip
+
+# Keep only the 3 data files the code uses
+data/*
+!data/KDDTrain+.txt
+!data/KDDTest+.txt
+!data/KDDTest-21.txt
+
+# Junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
